@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Glorious dotfiles installer/updater"
 echo ""
 echo "Installing Neovim dotfiles:"
