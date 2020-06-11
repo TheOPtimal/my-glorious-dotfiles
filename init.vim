@@ -64,3 +64,7 @@ autocmd Filetype *
     \		setlocal omnifunc=syntaxcomplete#Complete |
     \	endif
 endif
+
+" Mouse support
+
+set mouse=a
