@@ -16,11 +16,15 @@ You may also need zsh, neovim and oh-my-zsh.
 
 Debian installation:
 
-`sudo apt install neovim zsh`
+```bash
+sudo apt install neovim zsh
+```
 
 Manjaro installation:
 
-`sudo pamac instal neovim zsh`
+```bash
+sudo pamac install neovim zsh
+```
 
 Then, get oh-my-zsh [here](https://ohmyz.sh)
 
