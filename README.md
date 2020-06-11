@@ -6,6 +6,12 @@ My glorious, absolutely GLORIOUS dotfiles.
 - .p10k.zsh - Powerlevel10k Config
 
 ## Installation
+### Prerequisites
+
+For the zsh/powerlevel10k configuration you will need to install the patched Meslo Nerd Fonts.
+
+Download them [here](https://github.com/romkatv/powerlevel10k#fonts)
+
 ### Neovim
 
 ```bash
