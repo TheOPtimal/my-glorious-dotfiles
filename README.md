@@ -12,6 +12,18 @@ For the zsh/powerlevel10k configuration you will need to install the patched Mes
 
 Download them [here](https://github.com/romkatv/powerlevel10k#fonts)
 
+You may also need zsh, neovim and oh-my-zsh.
+
+Debian installation:
+
+`sudo apt install neovim zsh`
+
+Manjaro installation:
+
+`sudo pamac instal neovim zsh`
+
+Then, get oh-my-zsh [here](https://ohmyz.sh)
+
 ### Neovim
 
 ```bash
