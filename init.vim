@@ -1,36 +1,42 @@
 call plug#begin('~/.config/nvim/plugins')
 
-" Markdown
+" vim-instant-markdown - Live Markdown Rendering/Reloading
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 
-" Colorscheme
+" vim-dogrun - Colorscheme
 Plug 'wadackel/vim-dogrun'
 
-" Syntax highlighting
-
-" TypeScript
+" yats.vim - TypeScript syntax highlighting
 Plug 'HerringtonDarkholme/yats.vim'
 
-" General
+" SyntaxComplete - Syntax highlighting for over 600 presentations
 Plug 'vim-scripts/SyntaxComplete'
 
-" Pairing
+" Pairing - Tag pairing
 Plug 'tmsvg/pear-tree'
 
-" NERDtree
+" NERDtree - File tree
 
 Plug 'preservim/nerdtree'
 
-" Prettier
+" Prettier - Code formatter
 
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
-" Airline
+" Airline - Statusline
 
 Plug 'vim-airline/vim-airline'
-let g:airline_theme="statusline"
+Plug 'vim-airline/vim-airline-themes'
+" let g:airline_theme="simple"
+
+" Bracey.vim - Live HTML Reloading
+Plug 'turbio/bracey.vim'
+
+" Emmet
+
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
