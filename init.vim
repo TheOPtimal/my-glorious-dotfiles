@@ -74,3 +74,7 @@ endif
 " Mouse support
 
 set mouse=a
+
+" Enable ruler
+
+set numbers
