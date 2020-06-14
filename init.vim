@@ -77,4 +77,4 @@ set mouse=a
 
 " Enable ruler
 
-set numbers
+set number
