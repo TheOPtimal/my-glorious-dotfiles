@@ -29,7 +29,6 @@ Plug 'prettier/vim-prettier', {
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" let g:airline_theme="simple"
 
 " Bracey.vim - Live HTML Reloading
 Plug 'turbio/bracey.vim'
@@ -78,3 +77,9 @@ set mouse=a
 " Enable ruler
 
 set number
+
+" Configure airline
+
+let g:airline_theme="dogrun"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
